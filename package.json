@@ -1,0 +1,22 @@
+{
+  "name": "sorting-algorithms-node",
+  "version": "1.0.0",
+  "description": "Various sorting algorithms",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xenithz/sorting-algorithms-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xenithz/sorting-algorithms-node/issues"
+  },
+  "homepage": "https://github.com/Xenithz/sorting-algorithms-node#readme"
+}
