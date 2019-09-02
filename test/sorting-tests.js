@@ -1,6 +1,7 @@
 const assert = require('assert');
 const bubbleSort = require('../algorithms/bubble-sort');
 const quickSort = require('../algorithms/quick-sort');
+const insertionSort = require('../algorithms/insertion-sort');
 
 describe('Bubble sort', function() {
     describe('#bubbleSort()', function() {
@@ -19,6 +20,17 @@ describe('Quick sort', function() {
             let expectedArray = [1, 2, 3, 4, 5];
             let testArray = [5, 2, 3, 1, 4];
             quickSort(testArray, 0, testArray.length - 1);
+            assert.deepEqual(testArray, expectedArray);
+        });
+    });
+});
+
+describe('Insertion sort', function() {
+    describe('#insertionSort()', function() {
+        it('Array should be sorted from lowest to highest', function() {
+            let expectedArray = [1, 2, 3, 4, 5];
+            let testArray = [5, 2, 3, 1, 4];
+            insertionSort(testArray);
             assert.deepEqual(testArray, expectedArray);
         });
     });
