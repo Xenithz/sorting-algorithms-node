@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Xenithz/sorting-algorithms-node/issues"
   },
-  "homepage": "https://github.com/Xenithz/sorting-algorithms-node#readme"
+  "homepage": "https://github.com/Xenithz/sorting-algorithms-node#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
 }
